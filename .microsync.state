@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "version": "0.0.1"
+  },
+  "template": {
+    "comparison": {
+      "ignore": [],
+      "type": "unidiff"
+    },
+    "engine": {
+      "type": "cookiecutter"
+    },
+    "patch": {
+      "message": "Update to template ref {ref}\n\nMicrosync version: {version}",
+      "type": "git"
+    },
+    "ref": "32f8a3980975f9d76b2a848c7c613994288b0275",
+    "src": "git@github.com:microsync/cookiecutter-pypackage",
+    "vcs": {
+      "branch": "master",
+      "depth": 20,
+      "origin": "origin/master",
+      "type": "git"
+    }
+  },
+  "variables": {
+    "add_pyup_badge": "n",
+    "command_line_interface": "Click",
+    "create_author_file": "y",
+    "email": "test1@foo.com",
+    "full_name": "Hawker",
+    "github_username": "microsync",
+    "open_source_license": "MIT license",
+    "project_name": "test1",
+    "project_short_description": "contains test 1",
+    "project_slug": "test1",
+    "pypi_username": "microsync",
+    "use_pypi_deployment_with_travis": "y",
+    "use_pytest": "n",
+    "version": "0.1.0"
+  }
+}
